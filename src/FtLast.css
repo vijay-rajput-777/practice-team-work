@@ -1,0 +1,47 @@
+.mainFT{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.divsvgg{
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: aliceblue;
+    grid-row: span 2;
+    margin: 0;
+}
+.believe{
+    width: 20%;
+    font-family: sans-serif;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #00000025;
+}
+.ourValue{
+    width: 20%;
+    font-family: sans-serif;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 20px #00000025;
+}
+.believe h4{
+    font-weight: 400;
+    color: var(--latest);
+    margin-bottom: 0;
+}
+.dtl{
+    margin-left: 20px;
+
+}
+.dtl p{
+    color: gray;
+}

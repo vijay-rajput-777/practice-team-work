@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border: 2px solid whitesmoke;
+}
+:root{
+    --latest:#8502ff;
+}
+.svgg{
+    height: 30px;
+    width: 30px;
+    fill: #8502ff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p {
+    font-size: 20px;
+    margin-left:20px;
+    
+}
+.details{
+    display: flex;
+    gap: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.btn{
+    padding: 10px 30px ;
+    background-color: #8502ff;
+    border-radius: 20px;
+}
